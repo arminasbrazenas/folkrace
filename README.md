@@ -19,7 +19,6 @@ All of the architectural design work was done using AutoCAD software.
 The robot was 3D printed at our JBG Robotics club with Creality's Ender 5 Pro.
 
 For navigation in the track it uses 3 Sharp Distance Sensors from Pololu, which detect in 10 cm - 80 cm range.
-Though, these sensors have some noise, which makes them less reliable when in use.
 All of the calculations are done by the microcontroller - Arduino Nano.
 The robot uses skid steering mechanism, in which the car wheels are fixed in the same position.
 So in order to turn, the robot changes the motors' speed.
@@ -35,12 +34,12 @@ The application connects to the HC-06 bluetooth module mounted on the robot, whi
 
 #### Gallery
 <div style="display: flex">
-  <img src="https://github.com/arminasbrazenas/folkrace/blob/master/Assets/sizedoesntmatter/pic_2.jpg" width="49%" />
-  <img align="right" src="https://github.com/arminasbrazenas/folkrace/blob/master/Assets/sizedoesntmatter/pic_1.jpg" width="49%" />
+  <img src="https://github.com/arminasbrazenas/folkrace/blob/master/Assets/sizedoesntmatter/pic_2.jpg" width="45%" />
+  <img src="https://github.com/arminasbrazenas/folkrace/blob/master/Assets/sizedoesntmatter/pic_1.jpg" width="45%" />
 </div>
 
 <div style="display: flex">
-  <img src="https://github.com/arminasbrazenas/folkrace/blob/master/Assets/sizedoesntmatter/video_1.gif" />
-  <img align="right" src="https://github.com/arminasbrazenas/folkrace/blob/master/Assets/sizedoesntmatter/pic_3.jpg" />
+  <img src="https://github.com/arminasbrazenas/folkrace/blob/master/Assets/sizedoesntmatter/video_1.gif" width="45%" />
+  <img src="https://github.com/arminasbrazenas/folkrace/blob/master/Assets/sizedoesntmatter/pic_3.jpg" width="45%" />
 </div>
 
