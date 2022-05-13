@@ -34,10 +34,13 @@ The application connects to the HC-06 bluetooth module mounted on the robot, whi
 - 2nd place Robotex International 2021
 
 #### Gallery
+<div style="display: flex">
+  <img src="https://github.com/arminasbrazenas/folkrace/blob/master/Assets/sizedoesntmatter/pic_2.jpg" width="49%" />
+  <img align="right" src="https://github.com/arminasbrazenas/folkrace/blob/master/Assets/sizedoesntmatter/pic_1.jpg" width="49%" />
+</div>
 
-![alt text](https://github.com/arminasbrazenas/folkrace/blob/master/Assets/sizedoesntmatter/pic_1.jpg)
-
-<p align="center">
+<div style="display: flex">
   <img src="https://github.com/arminasbrazenas/folkrace/blob/master/Assets/sizedoesntmatter/video_1.gif" />
-</p>
+  <img align="right" src="https://github.com/arminasbrazenas/folkrace/blob/master/Assets/sizedoesntmatter/pic_3.jpg" />
+</div>
 
