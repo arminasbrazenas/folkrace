@@ -26,7 +26,7 @@ So in order to turn, the robot changes the motors' speed.
 The code for the robot was written in Arduino IDE, using Arduino language, which is nearly identical to C++.
 To determine the motor speed, necessary for the robot to stay in the middle of the track, PID algorithm was used.
 To easily change the variable values (PID tuning parameters, maximum speed, etc), I created a phone application on MIT App Inventor.
-The application connects to the HC-06 bluetooth module mounted on the robot, which transfers the data.
+The application connects to the HC-06 Bluetooth module mounted on the robot, which transfers the data.
 
 #### Achievements
 - 1st place Robotų Intelektas 2021
@@ -42,4 +42,14 @@ The application connects to the HC-06 bluetooth module mounted on the robot, whi
   <img src="https://github.com/arminasbrazenas/folkrace/blob/master/Assets/sizedoesntmatter/video_1.gif" width="45%" />
   <img src="https://github.com/arminasbrazenas/folkrace/blob/master/Assets/sizedoesntmatter/pic_3.jpg" width="45%" />
 </div>
+
+### sizedoesntmatter_v2
+
+A bigger, faster and more complex version of the previous robot.
+
+The robot uses a faster ESP32 microcontroller, which has a built in Bluetooth functionality.
+In addition, the distance sensors are exchanged for more accurate ones, which measure the distance of objects up to about 130 cm.
+Instead of all wheel drive, this one is powered by 2 more capable Pololu motors in the rear.
+Besides, there is a new, more effective steering mechanism.
+The steering, which is based on Ackermann's steering geometry, is controlled by a servo motor.
 
