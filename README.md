@@ -26,7 +26,7 @@ So in order to turn, the robot changes the motors' speed.
 The code for the robot was written in Arduino IDE, using Arduino language, which is nearly identical to C++.
 To determine the motor speed, necessary for the robot to stay in the middle of the track, PID algorithm was used.
 To easily change the variable values (PID tuning parameters, maximum speed, etc), I created a phone application on MIT App Inventor.
-The application connects to the HC-06 bluetooth module mounted on the robot, which transfers the information.
+The application connects to the HC-06 bluetooth module mounted on the robot, which transfers the data.
 
 #### Achievements
 - 1st place Robotų Intelektas 2021
