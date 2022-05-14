@@ -53,3 +53,8 @@ Instead of all wheel drive, this one is powered by 2 more capable Pololu motors 
 Besides, there is a new, more effective steering mechanism.
 The steering, which is based on Ackermann's steering geometry, is controlled by a servo motor.
 
+#### Gallery
+<div style="display: flex">
+  <img src="https://github.com/arminasbrazenas/folkrace/blob/master/Assets/sizedoesntmatter_v2/pic_1.jpg" width="45%" />
+</div>
+
