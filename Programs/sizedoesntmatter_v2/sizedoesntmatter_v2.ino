@@ -99,6 +99,7 @@ void loop() {
       }
 
       if (action == "P" || action == "I" || action == "D") {
+        // Reset PID
         steeringPID.SetTunings(kp, ki, kd);
         steeringPID.SetOutputLimits(0.0, 1.0);  // Forces minimum up to 0.0
         steeringPID.SetOutputLimits(-1.0, 0.0);  // Forces maximum down to 0.0
@@ -119,7 +120,7 @@ void loop() {
 
     servo.write(output);
 
-    /*
+    
     // If middle sensor detects an obstacle in front
     if (distanceSensors.sensors[3].getDistance() <= 150) {
       // If obstacle in front is detected for the first time
@@ -141,7 +142,7 @@ void loop() {
         obstacleInFront = false;
         frontObstacleStartMs = 0;
       }
-    }*/
+    }
   } else {
     motors.left.drive(0);
     motors.right.drive(0);
